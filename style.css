@@ -1,0 +1,154 @@
+
+/*#region GENERAL SETTINGS */
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.username-input, 
+.password-input, .log-in-container,hr,.sign-up-container{
+    border: 1px solid rgb(223, 223, 223);  
+}
+/*#endregion GENERAL SETTINGS */
+
+/*#region LEFT CONTAINER SETTINGS */
+.left-image-container{
+    margin-right: 1.5rem;
+}
+/*#endregion LEFT CONTAINER SETTINGS */
+
+/*#region RIGHT CONTAINER SETTINGS */
+
+.right-form-container{
+    margin-left: 1.5rem; ;
+}
+.text-logo{
+    width: 400px;
+    
+}
+.insta-brand-image{
+    width: 450px;
+}
+.insta-text-logo{
+     text-align: center;
+     margin-bottom: 2rem;
+}
+/*#region RIGHT LOG IN CONTAINER SETTINGS */
+
+.log-in-container{
+    
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.username-input, 
+.password-input{
+    padding: 1rem;
+    
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.username-input{
+    margin-bottom: 0.5rem;
+}
+.log-in-button{
+    background-color: #3095f3;
+    color: white;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.or-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+hr{
+    width: 100%;
+    
+}
+.or-text-container p{
+   text-transform: uppercase ;
+   color: rgb(104,104,104);
+}
+
+ .fa-facebook-square{
+   color: #3d5a98;
+   margin-right: 1rem;
+   font-size: 1.5rem;
+
+
+}
+.fb-login{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.fb-text{
+    text-decoration: none;
+    font-size: 1.2;
+    color: #3d5a98;
+   
+}
+.forgot-password-container{
+    text-align: center;
+    color: #3d5a98;
+}
+/*#endregion RIGHT LOG IN CONTAINER SETTINGS */
+
+/*#region RIGHT SIGN UP CONTAINER SETTINGS */
+
+ .sign-up-container{
+     background-color: white;
+     padding: 0.5;
+     text-align: center; 
+ }
+ .sign-up-container, a{
+    text-decoration: none;
+    font-size: 1.2;
+    color: #3d5a98;
+ }
+ .sign-up-container, p{
+    text-decoration: none;
+    font-size: 1.2;
+    color: #121213;
+ }
+ /*#endregion RIGHT SIGN UP CONTAINER SETTINGS */
+
+/*#endregion RIGHT CONTAINER SETTINGS */
+
+/*#region FOOTER FOR INSTAGRAM */
+.line1{
+    display: flex;
+    justify-content: center;
+    color:gray;
+    word-spacing: 3rem;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color:gray;
+    word-spacing: 3rem;
+
+}
+.line3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    color: gray;
+}
+/*#endregion FOOTER FOR INSTAGRAM*/
